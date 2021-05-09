@@ -1086,6 +1086,7 @@ DefineUnitType("unit-human-shipyard", { Name = _("Shipyard"),
 				  },
   ShoreBuilding = true,
   CanStore = {"oil"},
+  MaxWorkers = 15,
   Sounds = {
     "selected", "human-shipyard-selected",
 --    "acknowledge", "human-shipyard-acknowledge",
@@ -1120,6 +1121,7 @@ DefineUnitType("unit-elven-lumber-mill", { Name = _("Elven Lumber Mill"),
   Type = "land",
   Building = true, VisibleUnderFog = true, WoodImprove = true,
   CanStore = {"wood"},
+  MaxWorkers = 15,
   Sounds = {
     "selected", "elven-lumber-mill-selected",
 --    "acknowledge", "elven-lumber-mill-acknowledge",
@@ -1190,6 +1192,7 @@ DefineUnitType("unit-town-hall", { Name = _("Town Hall"),
 					}
 				  },
   CanStore = {"wood", "gold"},
+  MaxWorkers = 15,
   Sounds = {
     "selected", "town-hall-selected",
 --    "acknowledge", "town-hall-acknowledge",
@@ -1294,6 +1297,7 @@ DefineUnitType("unit-human-refinery", { Name = _("Refinery"),
 				  },
   ShoreBuilding = true,
   CanStore = {"oil"},
+  MaxWorkers = 15,
   Sounds = {
     "selected", "human-refinery-selected",
 --    "acknowledge", "human-refinery-acknowledge",
@@ -1364,6 +1368,7 @@ DefineUnitType("unit-keep", { Name = _("Keep"),
 					}
 				  },
   CanStore = {"gold", "wood"},
+  MaxWorkers = 15,
   Sounds = {
     "selected", "keep-selected",
 --    "acknowledge", "keep-acknowledge",
@@ -1399,6 +1404,7 @@ DefineUnitType("unit-castle", { Name = _("Castle"),
   Type = "land",
   Building = true, MainFacility = true, VisibleUnderFog = true, Center = true, WoodImprove = true, OilImprove = true,
   CanStore = {"gold", "wood"},
+  MaxWorkers = 15,
   BuildingRules = { { "distance", { Distance = 3, DistanceType = ">", Type = "unit-gold-mine"}
 					}
 				  },

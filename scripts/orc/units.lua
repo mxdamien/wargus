@@ -1184,6 +1184,7 @@ DefineUnitType("unit-orc-shipyard", { Name = _("Shipyard"),
 				  },
   ShoreBuilding = true,
   CanStore = {"oil"},
+  MaxWorkers = 15,
   Sounds = {
     "selected", "orc-shipyard-selected",
 --    "acknowledge", "orc-shipyard-acknowledge",
@@ -1221,6 +1222,7 @@ DefineUnitType("unit-great-hall", { Name = _("Great Hall"),
 					}
 				  },
   CanStore = {"gold", "wood"},
+  MaxWorkers = 15,
   Sounds = {
     "selected", "great-hall-selected",
 --    "acknowledge", "great-hall-acknowledge",
@@ -1255,6 +1257,7 @@ DefineUnitType("unit-troll-lumber-mill", { Name = _("Troll Lumber Mill"),
   Type = "land",
   Building = true, VisibleUnderFog = true, WoodImprove = true,
   CanStore = {"wood"},
+  MaxWorkers = 15,
   Sounds = {
     "selected", "troll-lumber-mill-selected",
 --    "acknowledge", "troll-lumber-mill-acknowledge",
@@ -1393,6 +1396,7 @@ DefineUnitType("unit-orc-refinery", { Name = _("Refinery"),
   ShoreBuilding = true,
   ShoreBuilding = true,
   CanStore = {"oil"},
+  MaxWorkers = 15,
   Sounds = {
     "selected", "orc-refinery-selected",
 --    "acknowledge", "orc-refinery-acknowledge",
@@ -1463,6 +1467,7 @@ DefineUnitType("unit-stronghold", { Name = _("Stronghold"),
 					}
 				  },
   CanStore = {"gold", "wood"},
+  MaxWorkers = 15,
   Sounds = {
     "selected", "stronghold-selected",
 --    "acknowledge", "stronghold-acknowledge",
@@ -1501,6 +1506,7 @@ DefineUnitType("unit-fortress", { Name = _("Fortress"),
 					}
 				  },
   CanStore = {"gold", "wood"},
+  MaxWorkers = 15,
   Sounds = {
     "selected", "fortress-selected",
 --    "acknowledge", "fortress-acknowledge",
